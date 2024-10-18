@@ -1,3 +1,4 @@
+import "./App.css";
 import Hero from "./components/Hero";
 import Brand from "./components/Brand";
 import Catalog from "./components/catalog";
@@ -7,7 +8,7 @@ import Footer from "./components/Footer";
 function App() {
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col scrollable">
       <Header />      
       <main className="flex-grow">
         <Hero />

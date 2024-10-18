@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div id="hero" className="relative h-[650px] w-full overflow-hidden bg-red-200">
       <img
-        src="/public/img-portada.webp"
+        src="/img-portada.webp"
         alt="Hero background"
         className="absolute inset-0 w-full h-full object-cover"
       />
